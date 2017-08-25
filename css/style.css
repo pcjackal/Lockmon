@@ -67,7 +67,7 @@ header {
 }
 
 .navbar-header, .navbar-collapse > ul > li {
-	padding-bottom: 45px;
+	//padding-bottom: 45px;
 	padding-top: 5px; 
 	text-align: center;
 }
@@ -147,7 +147,7 @@ footer > div {
 
 footer > p {
 	text-align: center;
-	padding: 50px 0;
+	padding: 25px 0;
 }
 
 footer > p strong:hover {
@@ -157,7 +157,6 @@ footer > p strong:hover {
 /*					MAIN APP					   */
 /*=================================================*/
 #main-app {
-	border: red 1px solid;
 	min-height: 50px;
 	text-align: center;
 }
@@ -177,13 +176,11 @@ footer > p strong:hover {
 #map, #data {
 	float:left;
 	min-width: 50px;
-	border: green solid 1px;
-	min-height: 300px;
+	height: 400px;
 }
 
 #map {
 	width: 65%;
-
 }
 
 #data {
@@ -192,16 +189,15 @@ footer > p strong:hover {
 
 .user-list, .details {
 	width: 100%;
-	border: yellow 4px solid;
+	border: yellow 1px solid;
 }
 
 .user-list {
-	height: 200px;
-
+	height: 270px;
 }
 
 .details {
-	height: 100px;
+	height: 130px;
 }
 
 

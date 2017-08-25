@@ -41,7 +41,17 @@
 	
 	<section id="main-app">
 		<div id="main-app-container">
-			<div id="map"></div>
+			<div id="map">
+				<script>
+					function initMap() {
+				        // Create a map object and specify the DOM element for display.
+				        var map = new google.maps.Map(document.getElementById('map'), {
+				          center: {lat: 50.0588, lng: 19.9448},
+				          zoom: 13
+				        });
+			    	}
+		        </script>
+			</div>
 			<div id="data">
 				<div class="user-list"></div>
 				<div class="details"></div>
@@ -59,5 +69,6 @@
 	<script src="js/jquery-2.2.3.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXNBDD-dO_7I-7aa6X5sAT6gfWETCUypc&callback=initMap" async defer></script>
 </body>
 </html>
