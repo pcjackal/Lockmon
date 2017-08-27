@@ -68,13 +68,14 @@ header {
 
 .navbar-header, .navbar-collapse > ul > li {
 	//padding-bottom: 45px;
-	padding-top: 5px; 
+	padding-top: 4px; 
 	text-align: center;
 }
 
 #menu > nav a {
 	border-radius: 0;
 	color: rgba(255, 255, 255, 0.7);
+	border-bottom: transparent 1px solid;
 	margin: 20px 10px;
 }
 
