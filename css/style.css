@@ -187,19 +187,69 @@ footer > p strong:hover {
 
 #data {
 	width: 35%;
+	padding: 5%;
 }
 
 .user-list, .details {
 	width: 100%;
-	border: yellow 1px solid;
+	/*border: yellow 1px solid;*/
 }
 
 .user-list {
 	height: 60%;
+	overflow: auto;
+}
+
+.user-list-item {
+	width: 100%;
+	/*padding: 10px 0;*/
+	border: 1px solid black;
+	margin-bottom: 4%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+.user-list-item-name, .user-list-item-coord {
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.user-list-item-name {
+	margin-left: 2em;
+	margin-right: 2em;
+	font-size: 1.2em;
+	color: #AAAAAA;
+	font-weight: bold;
+}
+
+.user-list-item-coord {
+	font-size: .7em;
+	color: #AAAAAA;
+}
+
+.state-active, .state-inactive {
+	float: left;	
+	width: 4%;
+	height: 23px;
+	top: 0;
+	left: 0;
+}
+
+.state-active {
+	background-color: green;
+}
+
+.state-inactive {
+	background-color: red;
 }
 
 .details {
 	height: 40%;
+	border: black 1px solid;
 }
 
 
